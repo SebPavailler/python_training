@@ -9,7 +9,7 @@ A hands-on repository for ramping up on Python, Bayesian workflows, and PyMC.
 1. Clone the repo:  
    ```bash
    git clone https://github.com/your-username/python_training.git
-   cd python_training*
+   cd python_training
    ```
 
 2. Install dependencies (Pixi required):  

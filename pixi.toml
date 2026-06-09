@@ -7,7 +7,7 @@ version = "0.1.0"
 
 [tasks]
 marimo = "python -m marimo"
-workshop = "python -m marimo edit notebooks/"
+training = "python -m marimo edit notebooks/"
 
 [dependencies]
 pymc = ">=6.0.0,<7"
