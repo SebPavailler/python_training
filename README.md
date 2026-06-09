@@ -6,20 +6,28 @@ A hands-on repository for ramping up on Python, Bayesian workflows, and PyMC.
 
 ## Setup
 
-1. Clone the repo:
+1. Clone the repo:  
+   ```bash
    git clone https://github.com/your-username/python_training.git
-   cd python_training
+   cd python_training*
+   ```
 
-2. Install dependencies (Pixi required):
+2. Install dependencies (Pixi required):  
+   ```bash
    pixi install
+   ```
 
-3. Verify PyMC:
+3. Verify PyMC:  
+   ```bash
    pixi run python -c "import pymc as pm; print(pm.__version__)"
+   ```
 
 ---
 ## Open a Notebook
-To start Week 1:
+To start Week 1:  
+```bash
 pixi run workshop week1/notebooks/week1_python_refresher.marimo
+```
 
 ---
 ## Course Outline
