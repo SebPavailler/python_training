@@ -11,11 +11,11 @@ training = "python -m marimo edit"
 
 [dependencies]
 python = ">=3.11,<3.13"
-numpy
-pandas
-matplotlib
-polars
-altair
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+polars = "*"
+altair = "*"
 
 [pypi-dependencies]
 marimo = ">=0.23.6,<0.24"
