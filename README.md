@@ -1,41 +1,54 @@
-# Python Training for Bayesian Workflow
+# Python Training (Bayesian Workflow)
 
-A hands-on repository for ramping up on Python, Bayesian workflows, and PyMC.
+Hands-on training to learn Python fundamentals and progressively move to Bayesian modeling with PyMC.
 
 ---
 
 ## Setup
 
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/your-username/python_training.git
-   cd python_training
-   ```
+1. Clone the repository:
 
-2. Install dependencies (Pixi required):  
-   ```bash
-   pixi install
-   ```
+git clone https://github.com/SebPavailler/python_training.git
+cd python_training
 
-3. Verify PyMC:  
-   ```bash
-   pixi run python -c "import pymc as pm; print(pm.__version__)"
-   ```
+2. Install dependencies (Pixi required):
+
+pixi install
 
 ---
-## Open a Notebook
-To start Week 1:  
-```bash
-pixi run workshop week1/notebooks/week1_python_refresher.marimo
-```
+
+## Launch
+
+Start marimo:
+
+pixi run marimo edit
+
+Then open any notebook from the folders.
 
 ---
-## Course Outline
-- Week 1: Python Refresher (NumPy, Polars, Plotting)
-- Week 2: Probability & Simulation
-- Week 3: PyMC Basics
-- Week 4: Model Checking & Regression
-- Week 5: GLMs & Hierarchical Models
-- Week 6: Time Series & Causal Inference
-- Week 7: Gaussian Processes
-- Week 8: Capstone Project
+
+## Structure
+
+- 00_setup/ → environment & tools
+- 01_python_fundamentals/ → core Python (critical refresh)
+- 02_visualization/ → plotting & data viz
+- 03_probabilistic_programming/ → PyMC basics
+- 04_state_space_models/ → time series & Kalman filtering
+- 05_gaussian_processes/ → GP modeling
+
+---
+
+## Goal
+
+Build a strong foundation in:
+
+- Python for data work
+- probabilistic thinking
+- Bayesian modeling with PyMC
+
+---
+
+## Notes
+
+- Start from 01_python_fundamentals/ if you need a refresher
+- Later modules use more advanced libraries (PyMC, etc.)

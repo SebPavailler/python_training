@@ -1,0 +1,16 @@
+[dependencies]
+pymc = ">=6.0.0,<7"
+arviz = ">=1.1.0,<2"
+plotly = ">=6.6.0,<7"
+nutpie = ">=0.16.10,<0.17"
+
+polars = ">=1.40.1,<2"
+patsy = ">=1.0.2,<2"
+pytensor = ">=3.0.2,<4"
+
+# optionnels mais utiles
+preliz = ">=0.25.0,<0.26"
+pymc-extras = ">=0.11.0,<0.12"
+
+[pypi-dependencies]
+pybaseball = ">=2.2.7,<3"
