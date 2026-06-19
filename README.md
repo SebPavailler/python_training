@@ -8,12 +8,16 @@ Hands-on training to learn Python fundamentals and progressively move to Bayesia
 
 1. Clone the repository:
 
+```
 git clone https://github.com/SebPavailler/python_training.git
 cd python_training
+```
 
 2. Install dependencies (Pixi required):
 
+```
 pixi install
+```
 
 ---
 
@@ -21,7 +25,10 @@ pixi install
 
 Start marimo:
 
+```
 pixi run marimo edit
+```
+
 
 Then open any notebook from the folders.
 
