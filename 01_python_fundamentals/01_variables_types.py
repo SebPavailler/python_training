@@ -174,6 +174,15 @@ def _():
     # YOUR CODE HERE
     pass
 
+@app.cell
+def _():
+    values = list(range(1, 11))
+
+    print("First:", values[0])
+    print("Last:", values[-1])
+    print("Slice 3–6:", values[2:6])
+    return
+
 
 # --- Exercise 2 (slightly harder) ---
 
@@ -199,6 +208,20 @@ Then print each value separately.
 def _():
     # YOUR CODE HERE
     pass
+
+
+@app.cell
+def _():
+    dataset = {
+        "name": "sales",
+        "n_obs": 100,
+        "mean": 250.5
+    }
+
+    print(dataset["name"])
+    print(dataset["n_obs"])
+    print(dataset["mean"])
+    return
 
 
 @app.cell
